@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 15px;
+  border-bottom-right-radius: 120px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+button {
+  background-color: #8d0076;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bb009c;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: left;
+  border-left: 4px solid #8d0076; /* Linha esquerda destacada */
+  background-color: #f8f8f8; /* Fundo destacado */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.1);
+}
+
+#error {
+  color: red;
+  margin-top: 10px;
+}
+
+.input-group {
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.input-group input {
+  text-align: center;
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#result .age-number {
+  color: #8d0076;
+  font-weight: bold;
+}
+
